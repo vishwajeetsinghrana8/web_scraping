@@ -1,0 +1,33 @@
+h1
+
+.intro
+
+#location
+
+div.intro
+
+span#location
+
+.bold
+
+.bold.italic
+
+li[data-identifier=7]
+
+a[href^='https']
+
+a[href$='fr']
+
+a[href*='google']
+
+div.intro p
+
+div.intro p,span#location
+
+div.intro > p
+
+div.intro + p
+
+li:nth-child(1)
+
+li:nth-child(even)
