@@ -1,0 +1,29 @@
+//h1
+
+//div[@class='intro']/p
+
+//div[@class='intro'or @class='outro']/p
+
+//div[@class='intro'or @class='outro']/p/text()
+
+//a/@href
+
+//a[starts-with(@href,'https')]
+
+//a[ends-with(@href,'fr')]
+
+//a[contains(@href,'google')]
+
+//a[contains(text(),'France')]
+
+//ul[@id='items']
+
+//ul[@id='items']/li[1]
+
+//ul[@id='items']/li[1 or 4]
+
+//ul[@id='items']/li[positions() = 1 or position() = 4]
+
+//ul[@id='items']/li[positions() = 1 or position() = last()]
+
+//ul[@id='items']/li[positions() > 1]
