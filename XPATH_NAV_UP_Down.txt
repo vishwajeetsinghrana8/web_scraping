@@ -1,0 +1,27 @@
+####get us the parents
+//p[@id='unique']/parent::div
+
+//p[@id='unique']/parent::node()
+
+### Get us the Parent and the grandparents
+//p[@id='unique']/ancestor::node()
+
+//p[@id='unique']/ancestor-or-self::node()
+
+//p[@id='unique']/preceding::node()
+
+//p[@id='unique']/preceding::h1
+
+//p[@id='outside']/preceding-sibling::node()
+
+//div[@class='intro']/p
+
+//div[@class='intro']/child::p
+
+//div[@class='intro']/child::node()
+
+//div[@class='intro']/following::node()
+
+//div[@class='intro']/following-sibling::node()
+
+//div[@class='intro']/descendant::node()
